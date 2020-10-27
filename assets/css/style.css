@@ -1,6 +1,5 @@
 /* debug */
 .debug{
-  width: 200px;
   height: 200px;
   background-color: yellow;
   border: 1px solid black;
@@ -18,9 +17,9 @@
   background-color: black;
   border-color: black;
 }
-.bk_cl_bl{
-  background-color: blue;
-  border-color: blue;
+.bk_cl_dbl{
+  background-color: darkblue;
+  border-color: darkblue;
 }
 .bk_cl_g{
   background-color: green;
@@ -38,4 +37,15 @@
 .mrgn_tp_50{
   margin-top: 50px;
 }
+.mrgn_tp_20{
+  margin-top: 20px;
+}
 /* /utility/ */
+
+/* Extra Small screen media */
+@media all and (max-width: 481px) {
+  .col-xxs_12 {
+    width: 100%;
+  }
+}
+/* /Extra Small screen media/ */
