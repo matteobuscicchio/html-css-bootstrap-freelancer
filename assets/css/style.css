@@ -6,16 +6,33 @@
 }
 /* /debug/ */
 
-*{
-  margin: 0 auto;
-  padding: 0;
-  box-sizing: border-box;
+/* utility */
+.mrgn_tp_50{
+  margin-top: 50px;
 }
-
+.mrgn_bm_50{
+  margin-bottom: 50px;
+}
+.mrgn_tp_20{
+  margin-top: 20px;
+}
+.mrgn_bm_20{
+  margin-bottom: 20px;
+}
+.p_t_20{
+  padding-top: 20px;
+}
+.p_t_20{
+  padding-bottom: 20px;
+}
 /* colori di background */
 .bk_cl_bk{
   background-color: black;
   border-color: black;
+}
+.bk_cl_w{
+  background-color: white;
+  border-color: white;
 }
 .bk_cl_dbl{
   background-color: darkblue;
@@ -33,15 +50,6 @@
 }
 /* /colore testo/ */
 
-/* utility */
-.mrgn_tp_50{
-  margin-top: 50px;
-}
-.mrgn_tp_20{
-  margin-top: 20px;
-}
-/* /utility/ */
-
 /* Extra Small screen media */
 @media all and (max-width: 481px) {
   .col-xxs_12 {
@@ -49,3 +57,13 @@
   }
 }
 /* /Extra Small screen media/ */
+/* /utility/ */
+
+*{
+  margin: 0 auto;
+  padding: 0;
+  box-sizing: border-box;
+}
+.txt_height{
+  height: 100px;
+}
