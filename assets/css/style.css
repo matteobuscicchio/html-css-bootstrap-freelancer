@@ -14,12 +14,26 @@
 
 /* utility */
 
+/* font */
 .fnt_3{
   font-size: 3em;
 }
 .fnt_2{
   font-size: 2em;
 }
+/* /font/ */
+
+/* position */
+.pos_rel{
+  position: relative;
+}
+.pos_abs{
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+/* /position/ */
 
 /* margini e padding */
 .mrgn_tp_100{
@@ -64,7 +78,7 @@
 
 /* colore testo */
 .cl_w{
-  color: white;
+  color: white !important;
 }
 .cl_2c3e50 {
   color: #2c3e50
@@ -80,13 +94,26 @@
 /* /Extra Small screen media/ */
 /* /utility/ */
 
+
 .img_15{
   width: 15em;
   margin-bottom: 3rem;
 }
+
 .img_portfolio{
   width: 100%;
   border-radius: 5px;
+}
+
+.img_svg{
+  width: auto;
+  height: 100%;
+  background-color:rgba(26,	188,	156, 0.8);
+  opacity: 0;
+  border-radius: 5px;
+}
+.img_svg:hover{
+  opacity: 1;
 }
 
 .bt_fd{
