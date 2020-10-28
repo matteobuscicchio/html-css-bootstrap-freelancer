@@ -13,6 +13,14 @@
 /* /debug/ */
 
 /* utility */
+
+.fnt_3{
+  font-size: 3em;
+}
+.fnt_2{
+  font-size: 2em;
+}
+
 /* margini e padding */
 .mrgn_tp_50{
   margin-top: 50px;
@@ -28,14 +36,10 @@
 }
 .p_t_20{
   padding-top: 20px;
-}
-.p_t_20{
   padding-bottom: 20px;
 }
 /* /margini e padding/ */
-.fnt_3{
-  font-size: 3em;
-}
+
 /* colori di background */
 .bk_cl_w{
   background-color: white;
@@ -73,11 +77,6 @@
 /* /Extra Small screen media/ */
 /* /utility/ */
 
-
-.txt_height{
-  height: 100px;
-}
-
 .img_15{
   width: 15em;
   margin-bottom: 3rem;
@@ -97,4 +96,19 @@
   background-color: #1abc9c;
   border: 1px solid white;
   border-radius: 5px;
+}
+#nav_brand{
+  color: white;
+}
+
+#nav_portfolio, #nav_about, #nav_contact{
+  color: white;
+}
+
+#nav_portfolio:hover, #nav_about:hover, #nav_contact:hover{
+  color: #1abc9c;
+}
+
+#footer_abt_frlnc{
+  color: #1abc9c;
 }
